@@ -9,6 +9,7 @@ export default function NavBar() {
                 <li>Portfolio</li>
                 <li>Blog</li>
                 <li>Contact</li>
+                <li>Résumé</li>
             </ul>
         </nav>
     );
