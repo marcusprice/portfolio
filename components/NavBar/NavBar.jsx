@@ -1,6 +1,6 @@
 import styles from './NavBar.module.css';
 
-export default function() {
+export default function NavBar() {
     return(    
         <nav className={styles.container}>
             <h1>Marcus Price</h1>

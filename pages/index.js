@@ -1,6 +1,9 @@
+import ContentContainer from '../components/ContentContainer';
+
 export default function Home() {
   return (
-    <div>
-    </div>
+    <ContentContainer className="">
+      
+    </ContentContainer>
   )
 }
