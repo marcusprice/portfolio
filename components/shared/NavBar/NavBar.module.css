@@ -2,10 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 32px 0;
+  padding: 0 8px;
   border-bottom: solid #eee 2px;
+  width: 100%;
   max-width: 1280px;
+  height: 64px;
   margin: 0 auto;
+  position: sticky;
+  top: 0;
+  background: #fff;
 }
 
 .container h1 {
@@ -20,6 +25,7 @@
 }
 
 .navItems {
+  display: none;
   margin: 0;
   padding: 0;
 }
@@ -39,4 +45,48 @@
 .container h1,
 .navItems li {
   font-size: 16px;
+}
+
+@media only screen and (max-width: 640px) {
+  .expanded {
+    display: block;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 100%;
+    background: #eee;
+  }
+
+  .expanded li {
+    text-align: center;
+    display: block;
+    margin: 16px 0;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    position: static;
+  }
+
+  .container {
+    padding: 0 32px;
+    height: 96px;
+  }
+
+  .navItems {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    padding: 32px 0;
+  }
 }
