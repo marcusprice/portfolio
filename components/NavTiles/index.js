@@ -1,1 +1,1 @@
-export { default } from './NavTiles';
+export { default } from "./NavTiles";

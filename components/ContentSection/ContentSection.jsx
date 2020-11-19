@@ -1,9 +1,5 @@
-import styles from './ContentSection.module.css';
+import styles from "./ContentSection.module.css";
 
-export default function ContentSection({ children }) {
-    return(
-        <div className={ styles.container }>
-            { children }
-        </div>
-    );
+export default function ContentSection({ children, last }) {
+  return <div className={styles.container}>{children}</div>;
 }

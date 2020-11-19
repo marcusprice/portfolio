@@ -1,33 +1,31 @@
 .container {
-    margin: 0 auto;
-    padding: 128px 0;
-    border-bottom: solid #eee 2px;
+  margin: 0 auto;
+  padding: 64px 0;
 }
 
 .title {
-    margin: 0 auto;
-    display: block;
-    font-size: 30px;
-    max-width: 640px;
-    text-align: center;
-    color: #222;
+  margin: 0 auto;
+  display: block;
+  font-size: 30px;
+  max-width: 640px;
+  text-align: center;
+  color: #222;
 }
 
 .button {
-    /* display: block; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 16px 16px;
-    font-size: 18px;
-    margin: 0 auto;
-    margin-top: 32px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    color: #777;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 16px 16px;
+  font-size: 18px;
+  margin: 0 auto;
+  margin-top: 32px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #777;
 }
 
 .button:hover {
-     color: #222;
+  color: #222;
 }

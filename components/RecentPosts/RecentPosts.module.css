@@ -1,0 +1,50 @@
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 64px 0;
+}
+
+.container h2 {
+  color: #777;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.container div {
+  margin-bottom: 64px;
+}
+
+.container div:last-child {
+  margin-bottom: 0px;
+}
+
+.container div h3,
+.container div span {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+}
+
+.container div span {
+  color: #aaa;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.container div h3 {
+  color: #222;
+  font-size: 24px;
+  margin-top: 8px;
+}
+
+.container div h3:hover {
+  color: #777;
+  cursor: pointer;
+}
+
+.container div p {
+  font-family: "Karla", sans-serif;
+  margin-top: 16px;
+  color: #777;
+  font-size: 18px;
+}
