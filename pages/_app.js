@@ -1,7 +1,7 @@
-import "../styles/globals.css";
-import Head from "next/head";
-import NavBar from "../components/NavBar/";
-import Footer from "../components/Footer/";
+import '../styles/globals.css';
+import Head from 'next/head';
+import NavBar from '../components/shared/NavBar/';
+import Footer from '../components/shared/Footer/';
 
 function MyApp({ Component, pageProps }) {
   return (
