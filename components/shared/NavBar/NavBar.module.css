@@ -13,13 +13,14 @@
   background: #fff;
 }
 
-.container h1 {
+.container h1 a {
   margin: 0;
   padding: 0;
   color: #777;
+  text-decoration: none;
 }
 
-.container h1:hover {
+.container h1 a:hover {
   color: #222;
   cursor: pointer;
 }
@@ -37,9 +38,18 @@
   color: #777;
 }
 
-.navItems li:hover {
+.navItems li a:hover {
   color: #222;
   cursor: pointer;
+}
+
+.navItems li a {
+  color: #777;
+  text-decoration: none;
+}
+
+.navItems li a.active {
+  color: #222;
 }
 
 .container h1,

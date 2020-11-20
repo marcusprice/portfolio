@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import Head from 'next/head';
 import { useWindowSize } from '../shared/hooks';
 import ContentSection from '../shared/ContentSection';
 import SectionHeader from '../shared/SectionHeader';
@@ -21,6 +21,9 @@ const handleTiles = () => {
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Marcus Price - Seattle-based software engineer</title>
+      </Head>
       <ContentSection>
         <SectionHeader
           title="I'm Marcus Price, a software engineer based out of Seattle, WA"
