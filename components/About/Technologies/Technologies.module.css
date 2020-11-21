@@ -1,0 +1,52 @@
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 64px 16px;
+}
+
+.container h2 {
+  color: #777;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.container p {
+  font-family: 'Karla', sans-serif;
+  color: #444;
+  line-height: 1.5;
+}
+
+.container h3 {
+  color: #222;
+  font-size: 24px;
+  margin-top: 32px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+}
+
+.container ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 32px;
+}
+
+.container ul li {
+  color: #444;
+  margin: 8px 0;
+  font-family: 'Karla', sans-serif;
+}
+
+@media only screen and (min-width: 640px) {
+  .container {
+    padding: 64px 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 1280px) {
+}

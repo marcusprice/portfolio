@@ -2,6 +2,7 @@ import Head from 'next/head';
 import ContentSection from '../shared/ContentSection';
 import SectionHeader from '../shared/SectionHeader';
 import SectionText from './SectionText';
+import Technologies from './Technologies';
 
 export default function About() {
   return (
@@ -34,6 +35,9 @@ export default function About() {
           technology into what I do, the projects you will see in my portfolio
           mirror my values.
         </SectionText>
+      </ContentSection>
+      <ContentSection>
+        <Technologies />
       </ContentSection>
     </>
   );
