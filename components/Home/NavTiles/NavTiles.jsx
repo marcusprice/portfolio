@@ -1,22 +1,31 @@
-import styles from "./NavTiles.module.css";
+import Link from 'next/link';
+import styles from './NavTiles.module.css';
 
 export default function NavTiles() {
   return (
     <div className={styles.container}>
       <div style={{ backgroundImage: 'url("./images/mountains-min.jpg")' }}>
-        <div>About</div>
+        <Link href='/about'>
+          <a>About</a>
+        </Link>
       </div>
 
       <div style={{ backgroundImage: 'url("./images/code-min.jpg")' }}>
-        <div>Portfolio</div>
+        <Link href='/portfolio'>
+          <a>Portfolio</a>
+        </Link>
       </div>
 
       <div style={{ backgroundImage: 'url("./images/blog-min.jpg")' }}>
-        <div>Blog</div>
+        <Link href='/blog'>
+          <a>Blog</a>
+        </Link>
       </div>
 
       <div style={{ backgroundImage: 'url("./images/message-min.jpg")' }}>
-        <div>Contact</div>
+        <Link href='/contact'>
+          <a>Contact</a>
+        </Link>
       </div>
     </div>
   );
