@@ -4,7 +4,7 @@ import styles from './NavTiles.module.css';
 export default function NavTiles() {
   return (
     <div className={styles.container}>
-      <div style={{ backgroundImage: 'url("./images/mountains-min.jpg")' }}>
+      <div style={{ backgroundImage: 'url("./images/waveform.jpg")' }}>
         <Link href='/about'>
           <a>About</a>
         </Link>

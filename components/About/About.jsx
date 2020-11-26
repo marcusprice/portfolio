@@ -17,7 +17,7 @@ export default function About() {
           cta='Check out my projects'
         />
       </ContentSection>
-      <SectionImage src={'/images/synth-patch.jpg'} alt='synthesizer patch' />
+      <SectionImage src={'/images/waveform.jpg'} alt='synthesizer patch' />
       <ContentSection>
         <SectionText>
           Although I officially began studying web development at Seattle
