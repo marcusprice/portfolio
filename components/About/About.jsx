@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import ContentSection from '../shared/ContentSection';
 import SectionHeader from '../shared/SectionHeader';
+import SectionImage from './SectionImage';
 import SectionText from './SectionText';
 import Technologies from './Technologies';
 
@@ -16,6 +17,7 @@ export default function About() {
           cta='Check out my projects'
         />
       </ContentSection>
+      <SectionImage src={'/images/synth-patch.jpg'} alt='synthesizer patch' />
       <ContentSection>
         <SectionText>
           Although I officially began studying web development at Seattle
